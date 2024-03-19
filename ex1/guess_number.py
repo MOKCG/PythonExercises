@@ -13,7 +13,7 @@ while running:
 
     if guess == number:
         print "Congratulations! You win!"
-        running = False
+        break
 
     elif guess < number:
         print "Too small! :("
